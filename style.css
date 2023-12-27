@@ -13,7 +13,6 @@ body {
     background-image:  repeating-linear-gradient(45deg, #7B3260 25%, transparent 25%, transparent 75%, #7B3260 75%, #7B3260), repeating-linear-gradient(45deg, #7B3260 25%, #933c73 25%, #933c73 75%, #7B3260 75%, #7B3260);
     background-position: 0 0, 10px 10px;
     background-size: 20px 20px;
-    background-repeat: repeat;
 
     color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
