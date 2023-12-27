@@ -3,10 +3,13 @@
     --header-title-padding: 50px;
     --header-link-padding: 15px;
     --content-padding: 25px;
+    --body-padding: 20px;
 }
 
 body {
     padding-top: 25px;
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding);
     display: flex;
     flex-direction: column;
     justify-content: center;
