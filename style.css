@@ -1,5 +1,8 @@
 :root {
+    --gap: 25px;
     --header-title-padding: 50px;
+    --header-link-padding: 15px;
+    --content-padding: 25px;
 }
 
 body {
@@ -8,6 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: var(--gap);
 
     background-color: #933c73;
     background-image:  repeating-linear-gradient(45deg, #7B3260 25%, transparent 25%, transparent 75%, #7B3260 75%, #7B3260), repeating-linear-gradient(45deg, #7B3260 25%, #933c73 25%, #933c73 75%, #7B3260 75%, #7B3260);
@@ -30,4 +34,20 @@ body {
 .header-title {
     padding-left: var(--header-title-padding);
     padding-right: var(--header-title-padding);
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link {
+    padding-left: var(--header-link-padding);
+    padding-right: var(--header-link-padding);
+}
+
+.content {
+    border: 5px solid #2F1325;
+    background-color: #B74B90;
+    padding: var(--content-padding);
 }
