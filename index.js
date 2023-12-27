@@ -1,4 +1,4 @@
-var page = "pages/home.html";
+const DEFAULT_PAGE = "pages/home.html";
 
 function updatePage(pg) {
     fetch(pg).then(x => {
@@ -9,4 +9,4 @@ function updatePage(pg) {
     });
 }
 
-updatePage(page);
+updatePage(DEFAULT_PAGE);

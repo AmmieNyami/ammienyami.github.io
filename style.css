@@ -44,6 +44,7 @@ body {
 .header-link {
     padding-left: var(--header-link-padding);
     padding-right: var(--header-link-padding);
+    padding-bottom: 5px;
 }
 
 .content {
