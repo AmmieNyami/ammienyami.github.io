@@ -55,3 +55,9 @@ body {
     background-color: #B74B90;
     padding: var(--content-padding);
 }
+
+.gif-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap);
+}
