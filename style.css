@@ -21,7 +21,7 @@ body {
     background-position: 0 0, 10px 10px;
     background-size: 20px 20px;
     color: #FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
 }
 
 .header {
@@ -46,6 +46,7 @@ body {
     border: 5px solid #2F1325;
     background-color: #B74B90;
     padding: var(--content-padding);
+    width: 90%;
 }
 
 .gif-buttons {
