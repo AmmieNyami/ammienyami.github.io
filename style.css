@@ -9,7 +9,6 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     gap: var(--gap);
@@ -53,4 +52,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: var(--gap);
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
