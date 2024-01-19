@@ -56,3 +56,9 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.sharelink {
+    border: 2px solid #2F1325;
+    background-color: #ff69c9;
+    color: #2F1325;
+}
