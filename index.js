@@ -15,8 +15,8 @@ function updatePage(pg) {
             const sharePageLink =
                   `<a class="sharelink" href="javascript:sharePage()">
                      Share this page!
-                   </a><br>`;
-            content.innerHTML = sharePageLink + x + "<br><br>" + sharePageLink;
+                   </a></br>`;
+            content.innerHTML = sharePageLink + x + "</br></br>" + sharePageLink;
         });
     });
     currentPage = pg;
