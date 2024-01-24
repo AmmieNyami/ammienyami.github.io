@@ -3,8 +3,10 @@ var currentPage = DEFAULT_PAGE;
 
 function sharePage() {
     const url = window.location.origin;
-    navigator.clipboard.writeText(url + '/?page=' + encodeURI(currentPage));
-    alert('The generated link was copied to the clipboard!');
+    navigator.clipboard.writeText(url + '/?page=' + encodeURI(currentPage))
+        .then(() => {
+            alert('The generated link was copied to the clipboard!');
+        });
 }
 
 function updatePage(pg) {
