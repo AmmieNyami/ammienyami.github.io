@@ -1,11 +1,3 @@
-:root {
-    --gap: 25px;
-    --header-title-padding: 50px;
-    --header-link-padding: 15px;
-    --content-padding: 25px;
-    --body-padding: 20px;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -16,17 +8,25 @@ body {
     padding-left: var(--body-padding);
     padding-right: var(--body-padding);
 
-    background-color: #933c73;
-    background-image:  repeating-linear-gradient(45deg, #7B3260 25%, transparent 25%, transparent 75%, #7B3260 75%, #7B3260), repeating-linear-gradient(45deg, #7B3260 25%, #933c73 25%, #933c73 75%, #7B3260 75%, #7B3260);
+    background-color: var(--background-bright-color);
+    background-image: repeating-linear-gradient(45deg, var(--background-dark-color) 25%,
+                                                transparent 25%, transparent 75%,
+                                                var(--background-dark-color) 75%,
+                                                var(--background-dark-color)),
+                      repeating-linear-gradient(45deg, var(--background-dark-color) 25%,
+                                                var(--background-bright-color) 25%,
+                                                var(--background-bright-color) 75%,
+                                                var(--background-dark-color) 75%,
+                                                var(--background-dark-color));
     background-position: 0 0, 10px 10px;
     background-size: 20px 20px;
-    color: #FFFFFF;
+    color: var(--content-foreground-color);
     font-family: monospace;
 }
 
 .header {
-    border: 5px solid #2F1325;
-    background-color: #B74B90;
+    border: 5px solid var(--content-border-color);
+    background-color: var(--content-background-color);
     padding-bottom: 5px;
     padding-left: var(--header-title-padding);
     padding-right: var(--header-title-padding);
@@ -45,8 +45,8 @@ body {
 }
 
 .content {
-    border: 5px solid #2F1325;
-    background-color: #B74B90;
+    border: 5px solid var(--content-border-color);
+    background-color: var(--content-background-color);
     padding: var(--content-padding);
     width: 90%;
 }
@@ -59,8 +59,12 @@ body {
     flex-wrap: wrap;
 }
 
+a {
+    color: var(--content-foreground-color);
+}
+
 .sharelink {
-    border: 2px solid #2F1325;
-    background-color: #ff69c9;
-    color: #2F1325;
+    border: 2px solid var(--content-border-color);
+    background-color: var(--link-background-color);
+    color: var(--content-foreground-color);
 }
