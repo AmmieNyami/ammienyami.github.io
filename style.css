@@ -66,5 +66,4 @@ a {
 .sharelink {
     border: 2px solid var(--content-border-color);
     background-color: var(--link-background-color);
-    color: var(--content-foreground-color);
 }
