@@ -50,8 +50,8 @@ function setTheme(theme) {
             "link-background-color": "#FFFF00"
         },
         "dark": {
-            "background-bright-color": "#272727",
-            "background-dark-color": "#181818",
+            "background-bright-color": "#0b0b0b",
+            "background-dark-color": "#000000",
             "content-border-color": "#FFFFFF",
             "content-background-color": "#000000",
             "content-foreground-color": "#FFFFFF",
