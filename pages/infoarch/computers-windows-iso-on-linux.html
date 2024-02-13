@@ -1,0 +1,16 @@
+<p>Written in Feb 13, 2024</p>
+<h1>Creating a Windows ISO out of a folder in Linux</h1>
+<p>In this page I will be showing how to create a Windows ISO out of a folder in Linux. <b>For this, will will need to have <code>genisoimage</code> installed</b>.</p>
+
+<h2>How to</h2>
+<p>In orther to generate a Windows ISO, you will need to run the following command:</p>
+
+<code>
+$ genisoimage -b &lt;boot image&gt; -no-emul-boot -boot-load-size 8 -iso-level 2 -udf -joliet -D -N -relaxed-filenames -o &lt;output iso&gt; &lt;folder containing the windows files&gt;
+</code>
+
+<p>&lt;boot image&gt; - Boot image. Generally is <code>boot/etfsboot.com</code>.</p>
+<p>&lt;output iso&gt; - The name you want the generated ISO to have.</p>
+<p>&lt;folder containing the windows files&gt; - Folder containing the ISO files.</p>
+
+<p>I tested it with a Windows 8.1 ISO.</p>
