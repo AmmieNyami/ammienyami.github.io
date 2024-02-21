@@ -1,12 +1,6 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    gap: var(--gap);
-    padding-top: 25px;
-    padding-left: var(--body-padding);
-    padding-right: var(--body-padding);
+    font-family: monospace;
+    margin: 0;
 
     background-color: var(--background-bright-color);
     background-image: repeating-linear-gradient(45deg, var(--background-dark-color) 25%,
@@ -20,43 +14,38 @@ body {
                                                 var(--background-dark-color));
     background-position: 0 0, 10px 10px;
     background-size: 20px 20px;
-    color: var(--content-foreground-color);
-    font-family: monospace;
 }
 
 .header {
-    border: 5px solid var(--content-border-color);
     background-color: var(--content-background-color);
-    padding-bottom: 5px;
-    padding-left: var(--header-title-padding);
-    padding-right: var(--header-title-padding);
+    color: var(--content-foreground-color);
 
+    border-bottom: 5px solid var(--content-border-color);
+    margin-bottom: var(--margin);
+}
+
+.header-title {
+    padding-left: var(--header-title-padding);
+}
+
+.header-links {
+    font-size: 1.1em;
+}
+
+.center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header-links {
-    display: flex;
-    flex-direction: row;
-    gap: var(--header-link-padding);
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .content {
-    border: 5px solid var(--content-border-color);
+    color: var(--content-foreground-color);
     background-color: var(--content-background-color);
-    padding: var(--content-padding);
-    width: 90%;
-}
 
-.gif-buttons {
-    display: flex;
-    flex-direction: row;
-    gap: var(--gap);
-    justify-content: space-around;
-    flex-wrap: wrap;
+    border: 5px solid var(--content-border-color);
+    margin-bottom: var(--margin);
+    padding: var(--content-padding);
+    width: 92%;
 }
 
 a {

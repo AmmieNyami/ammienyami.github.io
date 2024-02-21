@@ -9,35 +9,43 @@
     <link rel="me" href="https://mastodon.social/@HatsuSixty">
   </head>
   <body>
-    <div class="header">
-      <div class="header-links">
-        Themes:
-        <a href="javascript:setTheme('normal')">Normal</a>
-        <a href="javascript:setTheme('simple')">Simple</a>
-        <a href="javascript:setTheme('dark')">Dark</a>
-      </div>
-      <p style="font-size:30px">Hatsu Sixty's Website</p>
-      <div class="header-links">
+    <nav class="header">
+      <span class="header-title" style="font-size:2.25em;">
+        Hatsu Sixty's Website
+      </span>
+      <span class="header-links">
         <a href="javascript:updatePage('pages/home.html')">Home</a>
         <a href="javascript:updatePage('pages/infoarch.html')">InfoArch</a>
         <a href="javascript:updatePage('pages/projects.html')">Projects</a>
         <a href="javascript:updatePage('pages/about.html')">About</a>
+
+        <span style="font-size:0.7em;">
+          Themes:
+          <a href="javascript:setTheme('normal')">Normal</a>
+          <a href="javascript:setTheme('simple')">Simple</a>
+          <a href="javascript:setTheme('dark')">Dark</a>
+        </span>
+      </span>
+    </nav>
+
+    <div class="center">
+      <div id="content" class="content"></div>
+
+      <img style="margin-bottom:var(--margin)" src="assets/buttons/hatsusixty.gif" alt="HatsuSixty">
+      <div>
+        <img src="assets/buttons/90sbeststyle.gif" alt="90's best style">
+        <img src="assets/buttons/cybercity.gif" alt="Cyber City">
+        <img src="assets/buttons/deltarune.gif" alt="Deltarune">
+        <img src="assets/buttons/itstimetotransyourgender.gif" alt="It's time to trans your gender">
+        <img src="assets/buttons/proudlinuxuser.gif" alt="Proud Linux User">
+        <img src="assets/buttons/spamton.gif" alt="Spamton">
+        <img src="assets/buttons/windows95.gif" alt="Windows 95">
       </div>
+      <p>(c) 2023-2024 HatsuSixty.
+        <a style="background-color: pink;" href="lcnse_page.html">See License</a>.
+      </p>
     </div>
-    <div id="content" class="content"></div>
-    <img src="assets/buttons/hatsusixty.gif" alt="HatsuSixty">
-    <div class="gif-buttons">
-      <img src="assets/buttons/90sbeststyle.gif" alt="90's best style">
-      <img src="assets/buttons/cybercity.gif" alt="Cyber City">
-      <img src="assets/buttons/deltarune.gif" alt="Deltarune">
-      <img src="assets/buttons/itstimetotransyourgender.gif" alt="It's time to trans your gender">
-      <img src="assets/buttons/proudlinuxuser.gif" alt="Proud Linux User">
-      <img src="assets/buttons/spamton.gif" alt="Spamton">
-      <img src="assets/buttons/windows95.gif" alt="Windows 95">
-    </div>
-    <p>(c) 2023-2024 HatsuSixty.
-      <a style="background-color: pink;" href="lcnse_page.html">See License</a>.
-    </p>
+
     <script src="index.js"></script>
   </body>
 </html>

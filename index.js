@@ -26,11 +26,9 @@ function updatePage(pg) {
 
 function setTheme(theme) {
     const style = document.documentElement.style;
-    style.setProperty("--gap", "25px");
-    style.setProperty("--header-title-padding", "50px");
-    style.setProperty("--header-link-padding", "15px");
-    style.setProperty("--content-padding", "25px");
-    style.setProperty("--body-padding", "20px");
+    style.setProperty("--header-title-padding", "20px");
+    style.setProperty("--content-padding", "20px");
+    style.setProperty("--margin", "20px");
 
     const themes = {
         "normal": {
