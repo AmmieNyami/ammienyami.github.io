@@ -1,0 +1,10 @@
+---
+title: "Bad Apple!! stop motion, except it isn't..."
+date: 'Jan 9, 2024'
+---
+
+[Project's Source Code](https://github.com/HatsuSixty/bad-apple-stopmotion)
+
+This project consists of a bunch of scripts I used to generate a video that looks like a stop motion of Bad Apple!!. The video can be found here. The video isn't of the full animation because it would take too much time to render.
+
+I made this project because my art teacher (in the country I live, art is one of the subjects we learn in school) gave us a homework where we would create a stop motion animation of a music clip. Aaaand I wanted to cheat a little bit ![Minetest Server's 'Juanchi Face' Emoji](/minetest-server-juanchi-face.png).

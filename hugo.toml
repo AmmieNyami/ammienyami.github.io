@@ -1,0 +1,25 @@
+baseURL = "https://hatsusixty.github.io"
+languageCode = "en-us"
+title = "Hatsu Sixty's Website"
+theme = "hatsusixtys-theme"
+
+[[menu.main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[menu.main]]
+name = "InfoArch"
+url = "infoarch/"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "projects/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 4
+

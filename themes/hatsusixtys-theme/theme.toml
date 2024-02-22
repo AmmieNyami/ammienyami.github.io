@@ -1,0 +1,15 @@
+name = "Hatsu Sixty's Theme"
+license = "MIT"
+licenselink = "https://github.com/yihui/hugo-xmin/blob/master/LICENSE.md"
+description = "Hugo theme based on XMin"
+homepage = "https://hatsusixty.github.io"
+min_version = "0.18"
+
+[author]
+  name = "Hatsu Sixty"
+  homepage = "https://hatsusixty.github.io"
+
+[original]
+  author = "Yihui Xie"
+  homepage = "https://yihui.org"
+  repo = "https://github.com/yihui/hugo-xmin"
