@@ -1,3 +1,9 @@
+:root {
+  --accent-background-color: #B74B90;
+  --accent-background-alt-color: #FFBEE7;
+  --accent-foreground-color: #FFFFFF;
+}
+
 body {
   max-width: 800px;
   margin: auto;
@@ -10,9 +16,14 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
+  background: var(--accent-background-alt-color);
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 15px;
+
+  background: var(--accent-background-alt-color);
+  background: linear-gradient(149deg,
+                              #FFF 0%,
+                              var(--accent-background-alt-color) 100%);
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
@@ -21,6 +32,16 @@ hr {
   border-style: dashed;
   color: #ddd;
 }
+.header {
+    background-color: var(--accent-background-color);
+    color: var(--accent-foreground-color);
+    border-radius: 10px;
+    border: 5px solid var(--accent-background-alt-color);
+    border-style: dashed;
+    margin-bottom: 10px;
+}
+.header a { color: var(--accent-background-color); }
+.logo { margin-left: 10px; }
 
 /* code */
 pre {
@@ -49,3 +70,8 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 2px 2px 5px var(--accent-background-color);
+    color: #FFF;
+}

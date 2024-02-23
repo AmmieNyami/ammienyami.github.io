@@ -10,12 +10,11 @@
   </head>
 
   <body>
-    <nav>
-    <span style="font-size:2.9em;">{{ .Site.Title }}</span>
+    <nav class="header">
+    <span class="logo" style="font-size:2.9em;">{{ .Site.Title }}</span>
     <ul class="menu">
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
-    <hr/>
     </nav>
