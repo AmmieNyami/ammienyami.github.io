@@ -1,6 +1,6 @@
 ---
 title: "Bad Apple!! stop motion, except it isn't..."
-date: 'Jan 9, 2024'
+date: Jan 9, 2024
 ---
 
 [Project's Source Code](https://github.com/HatsuSixty/bad-apple-stopmotion)

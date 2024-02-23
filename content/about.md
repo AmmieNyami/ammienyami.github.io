@@ -1,6 +1,6 @@
 ---
 title: 'About'
-date: 'Dec 27, 2023'
+date: Dec 27, 2023
 ---
 
 About

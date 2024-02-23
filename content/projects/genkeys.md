@@ -1,6 +1,6 @@
 ---
 title: 'genkeys'
-date: 'Jan 9, 2024'
+date: Jan 9, 2024
 ---
 [Project's Source Code](https://github.com/HatsuSixty/AppDrawer).
 

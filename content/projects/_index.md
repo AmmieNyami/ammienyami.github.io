@@ -1,6 +1,6 @@
 ---
 title: 'Projects'
-date: 'Jan 9, 2024'
+date: Jan 9, 2024
 ---
 
 Hi! This is where I plan to keep pages about projects of mine.
