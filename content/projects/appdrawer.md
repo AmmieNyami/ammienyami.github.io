@@ -9,7 +9,7 @@ AppDrawer is a simple display server written from scratch in C++ with no depende
 
 # How it works
 
-AppDrawer initially creates 2 threads: a rendering thread and a server thread. The rendering thread renders the state of the server, and the server thread waits for connections. Each connection creates a separate thread for listening to commands from the client. The clients can send commands such as "get window display" or "create window". The so called "window display" is a shared memory region containing RGBA data that gets rendered into the actual window. To receive events, clients must tell the server to start sending events to a specific client. The server just sends events through the regular server socket.
+AppDrawer initially has 2 threads: a rendering thread and a server thread. The rendering thread renders the state of the server, and the server thread waits for connections. Each connection creates a separate thread for listening to commands from the client. The clients can send commands such as "get window display" or "create window". The so called "window display" is a shared memory region containing RGBA data that gets rendered into the actual window. To receive events, clients must tell the server to start sending events to a specific client. When the server starts sending events to a client, it creates a separate socket for that client, and sends events through it.
 
 The definitions of the structures used to communicate with the server are defined in a C header called "RudeDrawer".
 
