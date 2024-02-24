@@ -33,14 +33,17 @@ hr {
   color: #ddd;
 }
 .header {
-    background-color: var(--accent-background-color);
-    color: var(--accent-foreground-color);
-    border-radius: 10px;
-    border: 5px solid var(--accent-background-alt-color);
-    border-style: dashed;
-    margin-bottom: 10px;
+  background-color: var(--accent-background-color);
+  color: var(--accent-foreground-color);
+  border-radius: 10px;
+  border: 5px solid var(--accent-background-alt-color);
+  border-style: dashed;
+  margin-bottom: 10px;
 }
-.header a { color: var(--accent-background-color); }
+.header a {
+  color: var(--accent-background-color);
+  margin: 0px 2px 0px 2px;
+}
 .logo { margin-left: 10px; }
 
 /* code */
