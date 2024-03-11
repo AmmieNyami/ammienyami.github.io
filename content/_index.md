@@ -11,7 +11,7 @@ Hello people! This is my website. Here I plan to keep information that I find re
 
 - This Site: <https://hatsusixty.github.io>
 - GitHub: [HatsuSixty](https://github.com/HatsuSixty)
-- Discord: hatsusixty
+- Discord: hatsusixty (feel free to DM me if you're bored and wanna talk!)
 - Mastodon: [HatsuSixty@mastodon.social](https://mastodon.social/@HatsuSixty)
 - Reddit: [u/HatsuSixty](https://reddit.com/u/HatsuSixty)
 
