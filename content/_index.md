@@ -31,3 +31,12 @@ Hello people! This is my website. Here I plan to keep information that I find re
 - YouTube: [@HatsuSixty](https://youtube.com/@HatsuSixty)
 - Twitter: [@HatsuSixty](https://x.com/HatsuSixty)
 - Twitch: [hatsusixty](https://www.twitch.tv/hatsusixty)
+
+{{< rawhtml >}}
+<div style="text-align:center">
+  <h2>Cool sites:<h2>
+  <a href="https://okayxairen.neocities.org/">
+    <img src="/buttons/okayxairen.gif" alt="Okayxairen website">
+  </a>
+</div>
+{{< /rawhtml >}}
