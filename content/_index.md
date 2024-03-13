@@ -11,9 +11,20 @@ Hello people! This is my website. Here I plan to keep information that I find re
 
 - This Site: <https://hatsusixty.github.io>
 - GitHub: [HatsuSixty](https://github.com/HatsuSixty)
-- Discord: hatsusixty (feel free to DM me if you're bored and wanna talk!)
 - Mastodon: [HatsuSixty@mastodon.social](https://mastodon.social/@HatsuSixty)
 - Reddit: [u/HatsuSixty](https://reddit.com/u/HatsuSixty)
+
+## Contact
+
+- Discord: {{< rawhtml >}}<span style="color:blue">hatsusixty</span>{{< /rawhtml >}}
+- Matrix: [@hatsusixty:matrix.org](https://matrix.to/#/@hatsusixty:matrix.org)
+- E-mail: [hatsunotsus@gmail.com](mailto:hatsunotsus@gmail.com)
+
+{{< rawhtml >}}
+<span style="font-size:1.15em;color:red">
+  Feel free to DM me if you're bored and wanna talk!
+</span>
+{{< /rawhtml >}} (**no** lewd stuff pls).
 
 ## Social Media Where I Don't Post Very Often
 

@@ -13,10 +13,14 @@ body {
 
 /* header and footer areas */
 .menu { padding: 0; }
-.menu li { display: inline-block; }
+.menu li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
 .article-meta, .menu a {
   text-decoration: none;
   background: var(--accent-background-alt-color);
+  margin-top: 10px;
   padding: 5px;
   border-radius: 15px;
 
@@ -38,7 +42,7 @@ hr {
   border-radius: 10px;
   border: 5px solid var(--accent-background-alt-color);
   border-style: dashed;
-  margin-bottom: 10px;
+  padding-bottom: 0;
 }
 .header a {
   color: var(--accent-background-color);
