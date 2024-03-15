@@ -6,6 +6,7 @@ date: Feb 13, 2024
 In this page I will be showing how to create a Windows ISO out of a folder in Linux. **For this, will will need to have genisoimage installed.**
 
 # How to
+
 In orther to generate a Windows ISO, you will need to run the following command:
 
 ```console
