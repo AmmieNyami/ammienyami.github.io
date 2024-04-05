@@ -9,6 +9,14 @@ body {
   margin: auto;
   padding: 1em;
   line-height: 1.5;
+  background-image: var(--background-image);
+}
+
+.content-in-white {
+  background-color: var(--content-background-color);
+  padding: 10px;
+  border: 2px solid var(--content-border-color);
+  border-width: 5px;
 }
 
 /* header and footer areas */
