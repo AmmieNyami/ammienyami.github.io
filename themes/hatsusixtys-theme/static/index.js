@@ -8,6 +8,7 @@ function setTheme(theme) {
             "background-image": "none lmao",
             "content-background-color": "#FFFFFF",
             "content-border-color": "#FFFFFF",
+            "hr-color": "#ddd",
         },
         "cool": {
             "code-font": "\"Lucida Console\", Monaco, monospace",
@@ -15,6 +16,7 @@ function setTheme(theme) {
             "background-image": "url(/cool-background.png)",
             "content-background-color": "#D8D8D8",
             "content-border-color": "#B74B90",
+            "hr-color": "#8f8f8f",
         },
     };
 

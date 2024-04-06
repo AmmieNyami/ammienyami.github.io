@@ -42,7 +42,7 @@ body {
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
-  color: #ddd;
+  color: var(--hr-color);
 }
 .header {
   background-color: var(--accent-background-color);
