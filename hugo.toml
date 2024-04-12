@@ -9,8 +9,8 @@ url = ""
 weight = 1
 
 [[menu.main]]
-name = "InfoArch"
-url = "infoarch/"
+name = "Wiki"
+url = "wiki/"
 weight = 2
 
 [[menu.main]]
