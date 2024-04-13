@@ -5,6 +5,13 @@ date: Dec 27, 2023
 
 Hi! I'm a trans girl ![Trans Flag Emoji](/trans-flag-emoji.png) that likes doing stuff with computers and making art.
 
+{{< rawhtml >}}
+<span style="font-size:1.15em">
+  You can call me Hatsu, Hatty, or other variations you can think of.
+</span>
+{{< /rawhtml >}}
+You can also call me Amanda, any of these names is fine.
+
 # Some things about me
 
 - **Games:** The games I play the most are Touhou, osu!, and Deltarune.
