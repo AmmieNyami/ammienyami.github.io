@@ -3,6 +3,10 @@ title: 'Computers'
 date: Apr 12, 2024
 ---
 
+## Categories
+
+- [Games]({{< relref "games/" >}})
+
 ## Pages
 
 - [Creating a Windows ISO out of a folder in Linux]({{< relref "windows_iso_on_linux.md" >}})
