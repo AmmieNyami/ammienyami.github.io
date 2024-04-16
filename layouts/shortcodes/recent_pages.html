@@ -1,0 +1,9 @@
+<ul>
+{{ range .Site.Pages | first 10 }}
+  <li>
+    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+    -
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+  </li>
+{{ end }}
+</ul>

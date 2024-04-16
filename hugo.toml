@@ -19,8 +19,8 @@ url = "projects/"
 weight = 3
 
 [[menu.main]]
-name = "Public Files"
-url = "files/"
+name = "New Content"
+url = "new_content/"
 weight = 4
 
 [[menu.main]]

@@ -32,6 +32,13 @@ Hello people! This is my website. Here I plan to keep information that I find re
 - Twitter: [@HatsuSixty](https://x.com/HatsuSixty)
 - Twitch: [hatsusixty](https://www.twitch.tv/hatsusixty)
 
+New here? Consider reading some
+{{< rawhtml >}}
+<span style="font-size:2em;color:red">
+  <a href='{{< relref "new_content.md" >}}'>NEW CONTENT</a>
+</span>
+{{< /rawhtml >}}
+
 {{< rawhtml >}}
 <div style="text-align:center">
   <h2>Cool sites:<h2>
