@@ -1,6 +1,6 @@
 ---
 title: 'Fix Touhou Youyoumu: Perfect Cherry Blossom FPS'
-date: Apr 14, 2024
+date: 2024-04-14T12:00:00-03:00
 ---
 
 An easy way to fix PCB's FPS is using VPatch, which can be downloaded [here](https://www.mediafire.com/download/n7va6o67cyamani/VsyncPatch.zip).

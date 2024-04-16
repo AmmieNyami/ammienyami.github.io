@@ -1,6 +1,6 @@
 ---
 title: 'How to learn drawing?'
-date: Jan 9, 2024
+date: 2024-01-09T12:00:00-03:00
 ---
 
 In this page I will write about how I am learning drawing and about what resources I am using to do so. Keep in mind that I'm specifically focused in drawing characters. It's also important to note that I'm still pretty much a beginner, and I'm only writing notes about how I started drawing and what helped me to get into drawing.

@@ -1,6 +1,6 @@
 ---
 title: 'Programming Languages'
-date: Jan 9, 2024
+date: 2024-01-09T12:00:00-03:00
 ---
 This page is dedicated to some simple programming languages I made.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Public Files'
-date: Feb 24, 2024
+date: 2024-02-24T12:00:00-03:00
 ---
 
 These are public files I have no problem sharing. The server is hosted at my home, so it may be offline sometimes.

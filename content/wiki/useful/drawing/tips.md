@@ -1,6 +1,6 @@
 ---
 title: 'Drawing Tips'
-date: Jan 18, 2024
+date: 2024-01-18T12:00:00-03:00
 ---
 
 In this page I will be showing some drawing tips I learned while studying character drawing, in no particular ordering.

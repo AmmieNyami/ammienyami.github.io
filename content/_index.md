@@ -1,6 +1,6 @@
 ---
 title: 'Home Page'
-date: Dec 27, 2023
+date: 2023-12-27T12:00:00-03:00
 ---
 
 # Home Page

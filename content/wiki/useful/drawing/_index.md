@@ -1,6 +1,6 @@
 ---
 title: 'Drawing'
-date: Apr 12, 2024
+date: 2024-04-12T12:00:00-03:00
 ---
 
 **Please keep in mind that I'm still learning drawing, so unless explicitly noted, the pages under this category are basically "notes" I took while learning**.

@@ -1,6 +1,6 @@
 ---
 title: 'AppDrawer'
-date: Jan 9, 2024
+date: 2024-01-09T12:00:00-03:00
 ---
 
 [Project's Source Code](https://github.com/HatsuSixty/AppDrawer)

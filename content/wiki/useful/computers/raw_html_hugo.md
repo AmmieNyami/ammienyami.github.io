@@ -1,6 +1,6 @@
 ---
 title: 'Using raw html in markdown files with Hugo'
-date: Mar 15, 2024
+date: 2024-03-15T12:00:00-03:00
 ---
 
 In this page I will be showing how to use raw html in markdown files with Hugo.  
