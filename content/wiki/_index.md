@@ -8,4 +8,4 @@ Hi! This is where I plan to keep information I find useful enough to archive, or
 ## Categories
 
 - [Useful]({{< relref "useful/" >}})
-- [Not-so-useful]({{< relref "not-so-useful/" >}})
+- [Not-so-useful/Cool to know]({{< relref "not-so-useful/" >}})
