@@ -4,6 +4,11 @@ date: 2024-04-17T01:36:40Z
 draft: true
 ---
 
+<!-- If you're reading this, you're probably seeing this
+     site's source code on GitHub. I just wanted to say that I'm
+     proably never finishing writing this because I'm too lazy
+     lmao. -->
+
 ***WARNING:*** This is just stuff that I believe in, and there's the chance that I have no idea what I'm talking about. You might consider the stuff I write here BS or not. So if you think I said something stupid, please ignore it, it's likely that I will end up thinking it was stupid as well.
 
 ## What I consider to be good and what I consider to be bad
