@@ -1,6 +1,8 @@
 ---
 title: 'Jotaro X Bolsonaro'
 date: 2024-04-12T12:00:00-03:00
+params:
+  hidden: true
 ---
 
 ## *Um erro além da compreensão humana*

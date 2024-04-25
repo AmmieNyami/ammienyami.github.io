@@ -1,9 +1,15 @@
 <ul>
-{{ range .Site.Pages | first 10 }}
-  <li>
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-    -
-    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-  </li>
-{{ end }}
+  {{ range .Site.Pages | first 10 }}
+    <li>
+      <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+      -
+      <a href="{{ .Permalink }}">
+        {{ if not ( .Param "hidden" ) }}
+          {{ .Title | markdownify }}
+        {{ else }}
+          &lt;Hidden&gt; (you probably don't wanna click that)
+        {{ end }}
+      </a>
+    </li>
+  {{ end }}
 </ul>
