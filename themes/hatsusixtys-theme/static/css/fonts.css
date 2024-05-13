@@ -1,7 +1,7 @@
 body {
-  font-family: var(--normal-font);
+    font-family: var(--normal-font);
 }
 code {
-  font-family: var(--code-font);
-  font-size: 85%;
+    font-family: var(--code-font);
+    font-size: 85%;
 }
