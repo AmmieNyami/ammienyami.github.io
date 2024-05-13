@@ -14,6 +14,20 @@ function setTheme(theme) {
         "modern": {
             "code-font": "\"Lucida Console\", Monaco, monospace",
             "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
+
+            "background-image": "none lmao",
+            "content-background-color": "#FFFFFF",
+            "content-border-color": "#FFFFFF",
+            "hr-color": "#ddd",
+        },
+        "minimal": {
+            "header-background-color": "#FFFFFF",
+            "header-border-color": "#FF69C9",
+            "header-foreground-color": "#FF69C9",
+
+            "code-font": "\"Lucida Console\", Monaco, monospace",
+            "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
+
             "background-image": "none lmao",
             "content-background-color": "#FFFFFF",
             "content-border-color": "#FFFFFF",
@@ -22,6 +36,7 @@ function setTheme(theme) {
         "cool": {
             "code-font": "\"Lucida Console\", Monaco, monospace",
             "normal-font": "monospace",
+
             "background-image": "url(/cool-background.png)",
             "content-background-color": "#D8D8D8",
             "content-border-color": "#B74B90",
