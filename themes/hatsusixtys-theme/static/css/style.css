@@ -1,12 +1,4 @@
-:root {
-    --header-link-color: #B74B90;
-    --header-foreground-color: #FFFFFF;
-    --header-background-color: #B74B90;
-    --header-border-color: #FFBEE7;
-
-    --accent-color: #B74B90;
-    --accent-alt-color: #FFBEE7;
-}
+/* Variables are set in JavaScript! */
 
 body {
     max-width: 800px;

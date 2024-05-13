@@ -1,6 +1,15 @@
 function setTheme(theme) {
     const style = document.documentElement.style;
 
+    const defaults = {
+        "header-link-color": "#B74B90",
+        "header-foreground-color": "#FFFFFF",
+        "header-background-color": "#B74B90",
+        "header-border-color": "#FFBEE7",
+        "accent-color": "#B74B90",
+        "accent-alt-color": "#FFBEE7",
+    };
+
     const themes = {
         "modern": {
             "code-font": "\"Lucida Console\", Monaco, monospace",
@@ -23,6 +32,12 @@ function setTheme(theme) {
     const currentTheme = themes[theme];
     for (const [key, value] of Object.entries(currentTheme)) {
         style.setProperty("--" + key, value);
+    }
+
+    for (const [key, value] of Object.entries(defaults)) {
+        if (!(key in currentTheme)) {
+            style.setProperty("--" + key, value);
+        }
     }
 
     localStorage.setItem("lastTheme", theme);
