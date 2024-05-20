@@ -12,10 +12,13 @@ Sound is made of vibrations. When the vibrations are faster we hear them as bein
 The vast ***majority*** of popular music was composed using only twelve notes. The notes are (as in a piano):
 - White notes: A, B, C, D, E, F, G
 - Black notes: A♯/B♭, C♯/D♭, D♯/E♭, F♯/G♭, G♯/A♭
+- In order: A, A♯/B♭, B, C, C♯/D♭, D, D♯/E♭, E, F, F♯/G♭, G, G♯/A♭
 
 Where:
 - ♯ (Sharp) means half tone above a note
 - ♭ (Flat) means half tone below a note
+
+IMPORTANT: Not only the black keys can be called ♯ ou ♭, but also any kind of half tone up, like the one from B to C, where C can also be called B#.
 
 *NOTE: the distance of going twelve notes up or down to the next identically named note is called an **octave**.*  
 *NOTE: an increment between notes is called a semitone/half step.*  
@@ -48,3 +51,5 @@ As we go up in the scale, the notes have a spacing of:
 And that's the "formula" of a **major scale**.
 
 If you pick a key in a piano, and follow this sequence, you will get a major scale.
+
+*NOTE: **The notes in a major scale can also be numbered, always starting with the root note being 1.***
