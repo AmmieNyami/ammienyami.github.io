@@ -21,9 +21,9 @@ function setTheme(theme) {
             "hr-color": "#ddd",
         },
         "minimal": {
-            "header-background-color": "#FFFFFF",
+            "header-background-color": "#FFF9FD",
             "header-border-color": "#FF69C9",
-            "header-foreground-color": "#FF69C9",
+            "header-foreground-color": "#B74B90",
 
             "code-font": "\"Lucida Console\", Monaco, monospace",
             "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
@@ -58,4 +58,4 @@ function setTheme(theme) {
     localStorage.setItem("lastTheme", theme);
 }
 
-setTheme(localStorage.getItem("lastTheme") || "modern");
+setTheme(localStorage.getItem("lastTheme") || "minimal");
