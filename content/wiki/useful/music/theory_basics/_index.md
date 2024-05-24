@@ -19,3 +19,4 @@ Stuff that was not taken from that video can be found in [Extras]({{< relref "ex
 
 - [Notes, Keys, and Scales]({{< relref "notes_keys_scales.md" >}})
 - [Chords]({{< relref "chords.md" >}})
+- [Number System]({{< relref "number_system.md" >}})
