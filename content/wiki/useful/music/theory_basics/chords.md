@@ -13,7 +13,7 @@ Since chords are made up of notes, and notes are in keys, chords are almost alwa
 
 The most common chords contain three notes that have a specific relationship to each other, and we call that relationship the **"root, third, and fifth"**. In a chord of C major, we can play the root of C major, the third of C major (E), and the fifth of C major (G), at the same time, and that gives us the chord of C major.
 
-**You can think of this as playing the first white key of C major, skipping one, playing the next one, skipping one, and playing the next one again, at the same time.**
+**You can think of this as playing the first degree of C major, skipping one, playing the next one, skipping one, and playing the next one again, at the same time.**
 
 This kind of chord is also called a **triad**.
 
@@ -23,7 +23,7 @@ We can take the triad shape, move the root in a way that it's still any other no
 
 For example, a chord in C major that starts from F, will have the notes F, A and C. 
 
-Also, now that we're talking about the F chord, we need to start understandign a bit more the terms used, because the root of an F chord is F, the third is A, and the fifth is C, but we're still in the key of C major where C is the root, and F is the fourth in relation to C, and A is the sixth in relation to C, and so on.
+Also, now that we're talking about the F chord, we need to start understanding a bit more the terms used, because the root of an F chord is F, the third is A, and the fifth is C, but we're still in the key of C major where C is the root, and F is the fourth in relation to C, and A is the sixth in relation to C, and so on.
 
 ## Chord types: Major and Minor
 

@@ -18,7 +18,7 @@ Where:
 - ♯ (Sharp) means half tone above a note
 - ♭ (Flat) means half tone below a note
 
-Also, it's important to know that not only the black keys can be called ♯ ou ♭, but also any kind of half tone up, like the one from B to C, where C can also be called B#.
+Also, it's important to know that not only the black keys can be called ♯ or ♭, but also any kind of half tone up, like the one from B to C, where C can also be called B#.
 
 *NOTE: the distance of going twelve notes up or down to the next identically named note is called an **octave**.*  
 *NOTE: an increment between notes is called a semitone/half step.*  
