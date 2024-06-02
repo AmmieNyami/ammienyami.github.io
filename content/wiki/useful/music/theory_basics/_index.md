@@ -21,3 +21,4 @@ Stuff that was not taken from that video can be found in [Extras]({{< relref "ex
 - [Chords]({{< relref "chords.md" >}})
 - [Number System]({{< relref "number_system.md" >}})
 - [Inversions]({{< relref "inversions.md" >}})
+- [Melodies]({{< relref "melodies.md" >}})
