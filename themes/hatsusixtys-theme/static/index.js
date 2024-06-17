@@ -4,64 +4,64 @@ function setTheme(theme) {
     const style = document.documentElement.style;
 
     const defaults = {
+        "content-background-color": "#FFFFFF",
+        "content-border-color": "#FFFFFF",
+
         "foreground-color": "#000000",
         "background-color": "#FFFFFF",
+
         "header-link-color": "#B74B90",
         "header-foreground-color": "#FFFFFF",
         "header-background-color": "#B74B90",
         "header-border-color": "#FFBEE7",
 
-        "accent-color": "#B74B90",
-        "accent-alt-color": "#FFBEE7",
+        "title-accent-color": "#B74B90",
 
+        "accent-gradient-from": "#FFFFFF",
+        "accent-gradient-to": "#FFBEE7",
+
+        "code-highlight-color": "#eee",
         "hr-color": "#ddd",
         "link-color": "blue",
         "background-image": "none lmao",
+
+        "code-font": "\"Lucida Console\", Monaco, monospace",
+        "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
     };
 
     const themes = {
-        "modern": {
-            "code-font": "\"Lucida Console\", Monaco, monospace",
-            "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
-
-            "content-background-color": "#FFFFFF",
-            "content-border-color": "#FFFFFF",
-        },
+        "modern": {},
         "minimal": {
             "header-background-color": "#FFF9FD",
             "header-border-color": "#FF69C9",
             "header-foreground-color": "#B74B90",
-
-            "code-font": "\"Lucida Console\", Monaco, monospace",
-            "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
-
-            "content-background-color": "#FFFFFF",
-            "content-border-color": "#FFFFFF",
         },
         "dark": {
-            "header-background-color": "#62274e",
+            "content-background-color": "#3C1830",
+            "content-border-color": "#3C1830",
+
+            "background-color": "#3C1830",
+            "foreground-color": "#FFFFFF",
+
+            "header-link-color": "#FFD0ED",
+            "header-background-color": "#62274E",
             "header-border-color": "#FFD0ED",
             "header-foreground-color": "#FFD0ED",
 
-            "code-font": "\"Lucida Console\", Monaco, monospace",
-            "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
+            "accent-gradient-from": "#702c58",
+            "accent-gradient-to": "#B74B90",
 
-            "accent-alt-color": "#ff82d5",
-
-            "background-color": "#3C1830",
-            "content-background-color": "#3C1830",
-            "content-border-color": "#3C1830",
-            "foreground-color": "#FFFFFF",
+            "code-highlight-color": "#62274E",
             "link-color": "#FFFF20",
         },
         "cool": {
-            "code-font": "\"Lucida Console\", Monaco, monospace",
-            "normal-font": "monospace",
-
-            "background-image": "url(/cool-background.png)",
             "content-background-color": "#D8D8D8",
             "content-border-color": "#B74B90",
+
+            "background-image": "url(/cool-background.png)",
             "hr-color": "#8f8f8f",
+
+            "normal-font": "monospace",
         },
     };
 

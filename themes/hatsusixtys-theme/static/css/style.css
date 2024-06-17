@@ -29,15 +29,14 @@ a {
 }
 .article-meta, .menu a {
     text-decoration: none;
-    background: var(--accent-alt-color);
+    background: var(--accent-gradient-to);
     margin-top: 10px;
     padding: 5px;
     border-radius: 15px;
 
-    background: var(--accent-alt-color);
     background: linear-gradient(149deg,
-                                #FFF 0%,
-                                var(--accent-alt-color) 100%);
+                                var(--accent-gradient-from) 0%,
+                                var(--accent-gradient-to) 100%);
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
@@ -63,11 +62,11 @@ hr {
 /* code */
 pre {
     border: 1px solid #ddd;
-    box-shadow: 5px 5px 5px #eee;
+    box-shadow: 5px 5px 5px var(--code-highlight-color);
     padding: 1em;
     overflow-x: auto;
 }
-code { background: #f9f9f9; }
+code { background: var(--code-highlight-color); }
 pre code { background: none; }
 
 /* misc elements */
@@ -89,6 +88,6 @@ th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
 
 h1, h2, h3, h4, h5, h6 {
-    text-shadow: 2px 2px 5px var(--accent-color);
+    text-shadow: 2px 2px 5px var(--title-accent-color);
     color: #FFF;
 }
