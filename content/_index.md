@@ -16,7 +16,8 @@ Hello people! This is my website. Here I plan to keep information that I find re
 
 ## Contact
 
-- Discord: {{< rawhtml >}}<span style="color:blue">hatsusixty</span>{{< /rawhtml >}}
+<!-- Link color is defined in the currently used theme! -->
+- Discord: {{< rawhtml >}}<span style="color:var(--link-color)">hatsusixty</span>{{< /rawhtml >}}
 - Matrix: [@hatsusixty:matrix.org](https://matrix.to/#/@hatsusixty:matrix.org)
 - E-mail: [hatsunotsus@gmail.com](mailto:hatsunotsus@gmail.com)
 
