@@ -32,7 +32,7 @@ a {
     color: var(--link-color);
 }
 
-.content-in-white {
+.centered-content {
     box-shadow: 0px 0px 60px -15px var(--title-accent-color);
     background-color: var(--content-background-color);
     padding: 10px;
