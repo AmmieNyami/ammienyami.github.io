@@ -4,11 +4,15 @@ function setTheme(theme) {
     const style = document.documentElement.style;
 
     const defaults = {
+        "rly-hard-to-ignore": "red",
+
         "content-background-color": "#FFFFFF",
         "content-border-color": "#FFFFFF",
 
         "foreground-color": "#000000",
-        "background-color": "#FFFFFF",
+
+        "background-color-1": "#FFFFFF",
+        "background-color-2": "#DDDDDD",
 
         "header-link-color": "#B74B90",
         "header-foreground-color": "#FFFFFF",
@@ -23,7 +27,6 @@ function setTheme(theme) {
         "code-highlight-color": "#eee",
         "hr-color": "#ddd",
         "link-color": "blue",
-        "background-image": "none lmao",
 
         "code-font": "\"Lucida Console\", Monaco, monospace",
         "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
@@ -37,11 +40,14 @@ function setTheme(theme) {
             "header-foreground-color": "#B74B90",
         },
         "dark": {
+            "rly-hard-to-ignore": "lawngreen",
+
             "content-background-color": "#3C1830",
             "content-border-color": "#3C1830",
 
-            "background-color": "#3C1830",
             "foreground-color": "#FFFFFF",
+            "background-color-1": "#3C1830",
+            "background-color-2": "#702c58",
 
             "header-link-color": "#FFD0ED",
             "header-background-color": "#62274E",
@@ -53,15 +59,6 @@ function setTheme(theme) {
 
             "code-highlight-color": "#62274E",
             "link-color": "#FFFF20",
-        },
-        "cool": {
-            "content-background-color": "#D8D8D8",
-            "content-border-color": "#B74B90",
-
-            "background-image": "url(/cool-background.png)",
-            "hr-color": "#8f8f8f",
-
-            "normal-font": "monospace",
         },
     };
 

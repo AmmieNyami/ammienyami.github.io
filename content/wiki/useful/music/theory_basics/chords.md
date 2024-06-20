@@ -37,7 +37,7 @@ Also, we can create a diminished triad by using 3 half steps between each note. 
 
 {{< rawhtml >}}
 <span style="font-size: 1.8em;">
-    <b style="color: red;">IMPORTANT:</b> While writing this page, I noticed that saying that the "root, third, and fifth" rule and the "4 half steps, 3 half steps" rule both generate major chords can be quite confusing, and the <a href="https://www.youtube.com/watch?v=rgaTLrZGlk0">video</a> doesn't explain it very well.
+    <b style="color: var(--rly-hard-to-ignore);">IMPORTANT:</b> While writing this page, I noticed that saying that the "root, third, and fifth" rule and the "4 half steps, 3 half steps" rule both generate major chords can be quite confusing, and the <a href="https://www.youtube.com/watch?v=rgaTLrZGlk0">video</a> doesn't explain it very well.
 </span>
 {{< /rawhtml >}}
 

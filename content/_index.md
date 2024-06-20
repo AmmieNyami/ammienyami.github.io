@@ -22,7 +22,7 @@ Hello people! This is my website. Here I plan to keep information that I find re
 - E-mail: [hatsunotsus@gmail.com](mailto:hatsunotsus@gmail.com)
 
 {{< rawhtml >}}
-<span style="font-size:1.15em;color:red">
+<span style="font-size:1.15em;color:var(--rly-hard-to-ignore)">
   Feel free to DM me if you're bored and wanna talk!
 </span>
 {{< /rawhtml >}} (**no** lewd stuff pls).
@@ -35,7 +35,7 @@ Hello people! This is my website. Here I plan to keep information that I find re
 
 New here? Consider reading some
 {{< rawhtml >}}
-<span style="font-size:2em;color:red">
+<span style="font-size:2em;color:var(--rly-hard-to-ignore)">
   <a href='{{< relref "new_content.md" >}}'>NEW CONTENT</a>
 </span>
 {{< /rawhtml >}}
