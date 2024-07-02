@@ -44,7 +44,13 @@ New here? Consider reading some
 <div style="text-align:center">
   <h2>Cool sites:<h2>
   <a href="https://okayxairen.neocities.org/">
-    <img src="/buttons/okayxairen.gif" alt="Okayxairen website">
+    <img src="/buttons/othersites/okayxairen.gif" alt="Okayxairen website">
+  </a>
+</div>
+<div style="text-align:center">
+  <h2>Frens!!!<h2>
+  <a href="https://brightgreendandelions.neocities.org/">
+    <img src="/buttons/othersites/brightgreendandelions.png" alt="Green's website">
   </a>
 </div>
 {{< /rawhtml >}}
