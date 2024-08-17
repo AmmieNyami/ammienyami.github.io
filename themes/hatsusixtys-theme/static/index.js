@@ -24,6 +24,10 @@ function setTheme(theme) {
         "accent-gradient-from": "#FFFFFF",
         "accent-gradient-to": "#FFBEE7",
 
+        "quote-background-color": "#B74B90",
+        "quote-foreground-color": "#FFFFFF",
+        "quote-border-color": "#FFBEE7",
+
         "code-highlight-color": "#eee",
         "hr-color": "#ddd",
         "link-color": "blue",
@@ -56,6 +60,10 @@ function setTheme(theme) {
 
             "accent-gradient-from": "#702c58",
             "accent-gradient-to": "#B74B90",
+
+            "quote-background-color": "#62274E",
+            "quote-foreground-color": "#FFD0ED",
+            "quote-border-color": "#FFD0ED",
 
             "code-highlight-color": "#62274E",
             "link-color": "#FFFF20",
