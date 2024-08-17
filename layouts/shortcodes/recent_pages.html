@@ -3,6 +3,8 @@
     <li>
       <span class="date">{{ .Date.Format "2006/01/02" }}</span>
       -
+      <b>{{ .Parent.Title | markdownify }}</b>
+      -
       <a href="{{ .Permalink }}">
         {{ .Title | markdownify }}
       </a>
