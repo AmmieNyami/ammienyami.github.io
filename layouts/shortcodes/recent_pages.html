@@ -4,11 +4,7 @@
       <span class="date">{{ .Date.Format "2006/01/02" }}</span>
       -
       <a href="{{ .Permalink }}">
-        {{ if not ( .Param "hidden" ) }}
-          {{ .Title | markdownify }}
-        {{ else }}
-          &lt;Hidden&gt; (you probably don't wanna click that)
-        {{ end }}
+        {{ .Title | markdownify }}
       </a>
     </li>
   {{ end }}

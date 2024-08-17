@@ -14,21 +14,6 @@
 </div>
 
 <main>
-  {{ if .Page.Param "hidden" }}
-    <span style="font-size:2em;color:red;">
-      WARNING: THIS IS A HIDDEN PAGE
-    </span>
-    <br>
-    <span style="font-size:1.5em;">
-      <b>This means you probably don't want to read that, so read at your own risk.</b><br>
-      To read, scroll down 200 lines or smth.
-    </span>
-
-    {{ range seq 250 }}
-      <br>
-    {{ end }}
-  {{ end }}
-
   {{ .Content }}
 </main>
 
