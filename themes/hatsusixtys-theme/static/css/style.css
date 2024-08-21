@@ -30,6 +30,7 @@ body {
 
 a {
     color: var(--link-color);
+    text-decoration: none;
 }
 
 .centered-content {
@@ -110,5 +111,5 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 
 h1, h2, h3, h4, h5, h6 {
     text-shadow: 2px 2px 5px var(--title-accent-color);
-    color: #FFF;
+    color: var(--title-color);
 }

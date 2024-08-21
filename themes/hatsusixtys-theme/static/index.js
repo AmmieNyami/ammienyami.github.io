@@ -19,6 +19,7 @@ function setTheme(theme) {
         "header-background-color": "#B74B90",
         "header-border-color": "#FFBEE7",
 
+        "title-color": "#FFFFFF",
         "title-accent-color": "#B74B90",
 
         "accent-gradient-from": "#FFFFFF",
@@ -49,7 +50,7 @@ function setTheme(theme) {
             "content-background-color": "#3C1830",
             "content-border-color": "#3C1830",
 
-            "foreground-color": "#FFFFFF",
+            "foreground-color": "#FFD0ED",
             "background-color-1": "#3C1830",
             "background-color-2": "#702c58",
 
@@ -57,6 +58,8 @@ function setTheme(theme) {
             "header-background-color": "#62274E",
             "header-border-color": "#FFD0ED",
             "header-foreground-color": "#FFD0ED",
+
+            "title-color": "#FFD0ED",
 
             "accent-gradient-from": "#702c58",
             "accent-gradient-to": "#B74B90",
@@ -66,7 +69,9 @@ function setTheme(theme) {
             "quote-border-color": "#FFD0ED",
 
             "code-highlight-color": "#62274E",
-            "link-color": "#FFFF20",
+            "link-color": "#4BE5FF",
+
+            "hr-color": "#FFD0ED",
         },
     };
 
