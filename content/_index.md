@@ -27,6 +27,8 @@ Hello people! This is my website. Here I plan to keep information that I find re
 </span>
 {{< /rawhtml >}} (**no** lewd stuff pls).
 
+I don't really use Matrix, so if you wanna DM me, please suggest me some messaging app via email, or just use Discord if you don't have a problem with that.
+
 ## Social Media Where I Don't Post Very Often
 
 - YouTube: [@HatsuSixty](https://youtube.com/@HatsuSixty)
