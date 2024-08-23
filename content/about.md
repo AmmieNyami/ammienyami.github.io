@@ -43,7 +43,7 @@ My favorite anime is JoJo's Bizarre Adventures. It is the first anime I've reall
 
 But the actual first anime I've ever watched was Kaguya-sama: Love is War. Can't say much about it other than it's a really interesting anime, and I really recommend checking it out!
 
-Also, I couldn't talk about anime without talking about Re:ZERO. I haven't seen enough of it to consider it my favorite anime, but it's definitely at least my second favorite. Something about it just plays with my emotions in a special way. Don't know how to really describe it. I just recommend watching. 
+Also, I couldn't talk about anime without talking about Re:Zero. I haven't seen enough of it to consider it my favorite anime, but it's definitely at least my second favorite. Something about it just plays with my emotions in a special way. Don't know how to really describe it. I just recommend watching. 
 
 Nowadays I have a lot of hobbies, and among them, watching anime does not appeal that much, so I just stopped watching anime. I kinda plan to get back into it though. 
 
