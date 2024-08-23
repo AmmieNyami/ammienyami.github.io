@@ -5,19 +5,19 @@ date: 2023-12-27T12:00:00-03:00
 
 (originally created December 27 2023, rewritten from scratch August 22 2024)
 
-Hi, I'm a transgender girl ![Trans Flag Emoji](/trans-flag-emoji.png) that enjoys creating stuff.
+Hi, I'm a transgender girl ![Trans Flag Emoji](/trans-flag-emoji.png) that enjoys creating stuff!
 
 You can call me Hatsu, Amanda, Ammy, or whatever variations of my name you can think of (as long as I don't find it ugly).
 
-Below are somethings about me, if you're interested. 
+Below are some things about me, if you're interested. 
 
 ## Programming 
 
-I like programming and computers in general. I consider my self pretty good at programming actually. I'm more interested in systems programming and low level stuff, but I really like programming in general!
+I like programming and computers in general. I consider myself pretty good at programming actually. I'm more interested in systems programming and low level stuff, but I really like programming in general!
 
 ## Software 
 
-I generally prefer to use open source software, but I don't mind having to use proprietary software if I need to. I like to use Linux on my computers, but I won't find it annoying if I have to work with other operating systems if I have to, for example. 
+I generally prefer to use open source software, but I don't mind having to use proprietary software if I need to. For example, I like to use Linux on my computers, but I won't find it annoying if I have to work with other operating systems if I have to.
 
 ## Drawing 
 
@@ -25,7 +25,7 @@ I also like to draw! I don't really post my art online, primarily because I don'
 
 ## Games
 
-The first game I've really gotten into was Minecraft, so it's naturally one of my favorite games, even though I don't play it as often anymore. 
+The first game I've really gotten into was Minecraft, so it's naturally one of my favorite games, even though I don't play it very often anymore. 
 
 Other games I really like are Undertale and Deltarune. These two games are amazing and they are a big inspiration for my game projects.
 
@@ -43,9 +43,9 @@ My favorite anime is JoJo's Bizarre Adventures. It is the first anime I've reall
 
 But the actual first anime I've ever watched was Kaguya-sama: Love is War. Can't say much about it other than it's a really interesting anime, and I really recommend checking it out!
 
-I couldn't talk about anime without talking about Re:ZERO. I haven't seen enough of it to consider it my favorite anime, but it's definitely at least my second favorite. Something about it just plays with my emotions in a special way. Don't know how to really describe it. I just recommend watching. 
+Also, I couldn't talk about anime without talking about Re:ZERO. I haven't seen enough of it to consider it my favorite anime, but it's definitely at least my second favorite. Something about it just plays with my emotions in a special way. Don't know how to really describe it. I just recommend watching. 
 
-Nowadays I have a lot of hobbies, and watching anime does not "stand out" that much among them, so I just stopped watching anime. I kinda plan to get back into it though. 
+Nowadays I have a lot of hobbies, and among them, watching anime does not appeal that much, so I just stopped watching anime. I kinda plan to get back into it though. 
 
 ## Manga
 
