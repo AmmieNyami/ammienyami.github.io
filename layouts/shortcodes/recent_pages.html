@@ -1,13 +1,65 @@
-<ul>
+<table>
+  <tr>
+    <th>Date Created</th>
+    <th>Category</th>
+    <th>Name</th>
+  </tr>
+
   {{ range .Site.Pages | first 10 }}
-    <li>
-      <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-      -
-      <b>{{ .Parent.Title | markdownify }}</b>
-      -
-      <a href="{{ .Permalink }}">
-        {{ .Title | markdownify }}
-      </a>
-    </li>
+
+    {{ if (eq .Path "/wiki") }}
+      {{ continue }}
+    {{ end }}
+
+    <tr>
+
+      <td>
+        <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+      </td>
+
+      <td>
+        <!-- Create full path -->
+        {{ $fullPathReversed := slice }}
+
+        {{ $page := . }}
+
+        {{ range (seq 1000) }}
+          {{ if not $page.Parent }}
+            {{ break }}
+          {{ end }}
+
+          {{ if not (eq $page.Path "/wiki") }}
+            {{ $fullPathReversed = append $page $fullPathReversed }}
+          {{ end }}
+
+          {{ $page = $page.Parent }}
+        {{ end }}
+
+        <!-- Render path -->
+        {{ if $fullPathReversed }}
+
+        {{ range $i, $page := $fullPathReversed.Reverse }}
+          {{ if not (eq $i (math.Sub ($fullPathReversed | len) 1)) }}
+            {{ $page.Title | markdownify }}
+
+            {{ if not (eq $i (math.Sub ($fullPathReversed | len) 2)) }}
+              &lt;
+            {{ end }}
+
+          {{ end }}
+        {{ end }}
+
+        {{ else }}
+        Root
+        {{ end }}
+      </td>
+
+      <td>
+        <a href="{{ .Permalink }}">
+          {{ .Title | markdownify }}
+        </a>
+      </td>
+
+    </tr>
   {{ end }}
-</ul>
+</table>

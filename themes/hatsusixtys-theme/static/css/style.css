@@ -107,12 +107,10 @@ blockquote {
 
 table {
     margin: auto;
-    border-top: 1px solid #666;
-    border-bottom: 1px solid #666;
+    margin-bottom: 20px;
 }
-table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+thead, tfoot, tr:nth-child(even) { background: var(--alternate-table-color); }
 
 h1, h2, h3, h4, h5, h6 {
     text-shadow: 2px 2px 5px var(--title-accent-color);

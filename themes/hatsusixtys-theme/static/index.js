@@ -32,6 +32,7 @@ function setTheme(theme) {
         "code-highlight-color": "#eee",
         "hr-color": "#ddd",
         "link-color": "blue",
+        "alternate-table-color": "#eee",
 
         "code-font": "\"Lucida Console\", Monaco, monospace",
         "normal-font": "Optima, Candara, Calibri, Arial, sans-serif",
@@ -70,6 +71,7 @@ function setTheme(theme) {
 
             "code-highlight-color": "#62274E",
             "link-color": "#4BE5FF",
+            "alternate-table-color": "#62274E",
 
             "hr-color": "#FFD0ED",
         },
