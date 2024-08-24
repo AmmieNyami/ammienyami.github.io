@@ -18,7 +18,7 @@ Hello people! This is my website. Here I plan to keep information that I find re
 
 <!-- Link color is defined in the currently used theme! -->
 - Discord: {{< rawhtml >}}<span style="color:var(--link-color)">hatsusixty</span>{{< /rawhtml >}}
-- Matrix: [@hatsusixty:matrix.org](https://matrix.to/#/@hatsusixty:matrix.org)
+- Signal: {{< rawhtml >}}<span style="color:var(--link-color)">HatsuSixty.60</span>{{< /rawhtml >}}
 - E-mail: [hatsunotsus@gmail.com](mailto:hatsunotsus@gmail.com)
 
 {{< rawhtml >}}
@@ -26,8 +26,6 @@ Hello people! This is my website. Here I plan to keep information that I find re
   Feel free to DM me if you're bored and wanna talk!
 </span>
 {{< /rawhtml >}} (**no** lewd stuff pls).
-
-I don't really use Matrix, so if you wanna DM me, please suggest me some messaging app via email, or just use Discord if you don't have a problem with that.
 
 ## Social Media Where I Don't Post Very Often
 
