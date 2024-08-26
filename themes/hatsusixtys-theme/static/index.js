@@ -6,6 +6,10 @@ function setTheme(theme) {
     const defaults = {
         "rly-hard-to-ignore": "red",
 
+        "menu-background-color": "#FED8F1",
+        "menu-button-hover-background-color": "#FFFFFF",
+        "menu-foreground-color": "#B74B90",
+
         "content-background-color": "#FFFFFF",
         "content-border-color": "#FFFFFF",
 
@@ -47,6 +51,10 @@ function setTheme(theme) {
         },
         "dark": {
             "rly-hard-to-ignore": "lawngreen",
+
+            "menu-background-color": "#3C1830",
+            "menu-button-hover-background-color": "#62274E",
+            "menu-foreground-color": "#FFD0ED",
 
             "content-background-color": "#3C1830",
             "content-border-color": "#3C1830",

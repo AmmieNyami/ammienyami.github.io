@@ -4,10 +4,12 @@
  * !!! Variables are set in JavaScript !!!
  */
 
+:root {
+    --sidebar-width: 200px;
+}
+
 body {
-    max-width: 800px;
-    margin: auto;
-    padding: 1em;
+    margin: 0px;
     line-height: 1.5;
 
     color: var(--foreground-color);
@@ -19,38 +21,113 @@ body {
     --s: 80px;
     --c: var(--background-color-1);
     --_g:
-        #0000 calc(-650%/13) calc(50%/13),var(--c) 0 calc(100%/13),
-        #0000 0 calc(150%/13),var(--c) 0 calc(200%/13),
-        #0000 0 calc(250%/13),var(--c) 0 calc(300%/13);
-    --_g0: repeating-linear-gradient( 45deg,var(--_g));
-    --_g1: repeating-linear-gradient(-45deg,var(--_g));
+        #0000 calc(-650%/13) calc(50%/13), var(--c) 0 calc(100%/13),
+        #0000 0 calc(150%/13), var(--c) 0 calc(200%/13),
+        #0000 0 calc(250%/13), var(--c) 0 calc(300%/13);
+    --_g0: repeating-linear-gradient(45deg, var(--_g));
+    --_g1: repeating-linear-gradient(-45deg, var(--_g));
     background:
-        var(--_g0),var(--_g0) var(--s) var(--s),
-        var(--_g1),var(--_g1) var(--s) var(--s) var(--background-color-2);
+        var(--_g0), var(--_g0) var(--s) var(--s),
+        var(--_g1), var(--_g1) var(--s) var(--s) var(--background-color-2);
     background-size: calc(2*var(--s)) calc(2*var(--s));
 }
 
-a {
-    color: var(--link-color);
-    text-decoration: none;
+.menu-section {
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+
+    text-align: center;
+    overflow: hidden;
+
+    width: var(--sidebar-width);
+    height: 100%;
+
+    background-color: var(--menu-background-color);
+    color: var(--menu-foreground-color);
+
+    box-shadow: 0px 0px 60px -15px var(--title-accent-color);
+}
+
+.menu-link * {
+    font-size: 1.3em;
+    font-weight: bold;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-link a {
+    color: var(--menu-foreground-color);
+}
+
+.menu-link:hover {
+    text-shadow: 2px 2px 10px var(--title-accent-color);
+    background-color: var(--menu-button-hover-background-color);
+}
+
+.menu-link-text {
+    transition: 0.3s ease;
+}
+
+.menu-link-text:hover {
+    transform: rotate(5deg);
+    transform-origin: 50%;
+    font-size: 1.3em;
+}
+
+.content-section {
+    margin-left: var(--sidebar-width);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .centered-content {
-    box-shadow: 0px 0px 60px -15px var(--title-accent-color);
-    background-color: var(--content-background-color);
+    margin: auto;
     padding: 10px;
+
+    max-width: 800px;
+
+    background-color: var(--content-background-color);
+    box-shadow: 0px 0px 60px -15px var(--title-accent-color);
+
     border: 2px solid var(--content-border-color);
     border-width: 5px;
     border-radius: 15px;
 }
 
-/* header and footer areas */
-.menu { padding: 0; }
-.menu li {
-    display: inline-block;
-    margin-bottom: 7px;
+@media screen and (max-width: 1096px) {
+    .menu-section {
+        width: 100%;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .menu-link {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .content-section {
+        margin: 0px;
+    }
+
+    .centered-content {
+        border-radius: 0px;
+    }
 }
-.article-meta, .menu a {
+
+@media screen and (max-width: 440px) {
+    .menu-link {
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+/* header and footer areas */
+.article-meta {
     text-decoration: none;
     background: var(--accent-gradient-to);
     margin-top: 10px;
@@ -58,32 +135,45 @@ a {
     border-radius: 15px;
 
     background: linear-gradient(149deg,
-                                var(--accent-gradient-from) 0%,
-                                var(--accent-gradient-to) 100%);
+            var(--accent-gradient-from) 0%,
+            var(--accent-gradient-to) 100%);
 }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
-hr {
-    border-style: dashed;
-    color: var(--hr-color);
+
+.article-meta,
+footer {
+    text-align: center;
 }
+
+.title {
+    font-size: 1.1em;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
 .header {
     background-color: var(--header-background-color);
     color: var(--header-foreground-color);
-    border-radius: 10px;
+
     border: 5px solid var(--header-border-color);
+    border-radius: 10px;
     border-style: dashed;
-    padding-bottom: 0;
+
+    margin-bottom: 20px;
 
     font-family: 'Inter';
     font-weight: 600;
 }
-.header a {
-    color: var(--header-link-color);
-    margin: 0px 2px 0px 2px;
+
+footer a {
+    text-decoration: none;
 }
-.logo { margin-left: 10px; }
+
+hr {
+    border-style: dashed;
+    color: var(--hr-color);
+}
 
 /* code */
 pre {
@@ -92,12 +182,26 @@ pre {
     padding: 1em;
     overflow-x: auto;
 }
-code { background: var(--code-highlight-color); }
-pre code { background: none; }
+
+code {
+    background: var(--code-highlight-color);
+}
+
+pre code {
+    background: none;
+}
 
 /* misc elements */
-img, iframe, video { max-width: 100%; }
-main { hyphens: auto; }
+img,
+iframe,
+video {
+    max-width: 100%;
+}
+
+main {
+    hyphens: auto;
+}
+
 blockquote {
     color: var(--quote-foreground-color);
     background: var(--quote-background-color);
@@ -109,10 +213,29 @@ table {
     margin: auto;
     margin-bottom: 20px;
 }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: var(--alternate-table-color); }
 
-h1, h2, h3, h4, h5, h6 {
+th,
+td {
+    padding: 5px;
+}
+
+thead,
+tfoot,
+tr:nth-child(even) {
+    background: var(--alternate-table-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-shadow: 2px 2px 5px var(--title-accent-color);
     color: var(--title-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
 }
