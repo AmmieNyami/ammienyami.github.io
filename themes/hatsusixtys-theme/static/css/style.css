@@ -55,9 +55,7 @@ body {
 
     padding-top: 10px;
     padding-bottom: 10px;
-}
 
-.menu-link a {
     color: var(--menu-foreground-color);
 }
 
