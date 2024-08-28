@@ -33,7 +33,7 @@ Speaking of big inspirations, I REALLY like the Touhou Project series. Like, a l
 
 ## Future game projects? 
 
-Yeah. I can't say much about it. Just know that I have pretty big plans about this thing :)
+Yeah. I can't say much about it. Just know that I have pretty big plans about this thing :3
 
 ## Anime 
 
