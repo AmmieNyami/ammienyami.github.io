@@ -33,24 +33,34 @@ Hello people! This is my website. Here I plan to keep information that I find re
 - Twitter: [@HatsuSixty](https://x.com/HatsuSixty)
 - Twitch: [hatsusixty](https://www.twitch.tv/hatsusixty)
 
-New here? Consider reading some
+New here? Consider checking out some
+{{< rawhtml >}}
+<span style="font-size:2em;color:var(--rly-hard-to-ignore)">
+  <a href='{{< relref "fun_stuff/" >}}'>FUN STUFF</a>
+</span>
+{{< /rawhtml >}}
+or reading some
 {{< rawhtml >}}
 <span style="font-size:2em;color:var(--rly-hard-to-ignore)">
   <a href='{{< relref "new_content.md" >}}'>NEW CONTENT</a>
 </span>
 {{< /rawhtml >}}
+!
 
 {{< rawhtml >}}
-<div style="text-align:center">
-  <h2>Cool sites:<h2>
-  <a href="https://okayxairen.neocities.org/">
-    <img src="/buttons/othersites/okayxairen.gif" alt="Okayxairen website">
-  </a>
-</div>
+
 <div style="text-align:center">
   <h2>Frens!!!<h2>
   <a href="https://brightgreendandelions.neocities.org/">
     <img src="/buttons/othersites/brightgreendandelions.png" alt="Green's website">
   </a>
 </div>
+
+<div style="text-align:center">
+  <h2>Cool sites:<h2>
+  <a href="https://okayxairen.neocities.org/">
+    <img src="/buttons/othersites/okayxairen.gif" alt="Okayxairen website">
+  </a>
+</div>
+
 {{< /rawhtml >}}
