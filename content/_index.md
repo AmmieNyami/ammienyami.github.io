@@ -9,7 +9,7 @@ Hello people! This is my website. Here I plan to keep information that I find re
 
 ## Social Media
 
-- This Site: <https://hatsusixty.github.io>
+- This Site: <https://hatsusixty.in>
 - GitHub: [HatsuSixty](https://github.com/HatsuSixty)
 - Fediverse: [@HatsuSixty@transfem.social](https://transfem.social/@HatsuSixty)
 - Reddit: [u/HatsuSixty](https://reddit.com/u/HatsuSixty)
