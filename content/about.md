@@ -54,9 +54,3 @@ I've only ever finished one manga, that being Yagate Kimi ni Naru. It's a really
 ## AND MOST IMPORTANTLY
 
 Purple and pink are my favorite colors. These are just the prettiest ones. Period.
-
----
-
-Hey! If you read through all of that, you likely think I'm pretty cool! If that's the case, please consider DM'ing me! My contact info is in the home page of this website!
-
-(seriously though i need friends 😭 /hj)
