@@ -7,7 +7,7 @@ date: 2023-12-27T12:00:00-03:00
 
 Hi, I'm a transgender girl ![Trans Flag Emoji](/trans-flag-emoji.png) that enjoys creating stuff!
 
-You can call me Hatsu, Amanda, Ammy, or whatever variations of my name you can think of (as long as I don't find it ugly).
+You can call me Hatsu, Amanda, Amy, or whatever variations of my name you can think of (as long as I don't find it ugly).
 
 Below are some things about me, if you're interested.
 
