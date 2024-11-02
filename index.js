@@ -1,6 +1,13 @@
 const DEFAULT_THEME = "dark";
 const DEFAULT_PAGE = "/pages/home.html";
 
+function escapeHtml(html){
+    var text = document.createTextNode(html);
+    var p = document.createElement('p');
+    p.appendChild(text);
+    return p.innerHTML;
+}
+
 function setTheme(theme) {
     const style = document.documentElement.style;
 
@@ -46,7 +53,7 @@ function handlePathUpdate() {
     fetch(page).then((response) => {
         response.text().then((htmlText) => {
             if (raw) {
-                content.innerHTML = `<pre style="white-space:pre-wrap;">${htmlText}</pre>`;
+                content.innerHTML = `<pre style="white-space:pre-wrap;">${escapeHtml(htmlText)}</pre>`;
                 return;
             }
 
