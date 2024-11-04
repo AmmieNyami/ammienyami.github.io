@@ -1,0 +1,29 @@
+.project-list {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project {
+    display: inline-block;
+    text-align: center;
+
+    background-color: rgb(var(--page-content-background-color));
+
+    border-style: solid;
+    border-width: 3px;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.project img {
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.project a {
+    color: rgb(var(--page-content-foreground-color));
+}

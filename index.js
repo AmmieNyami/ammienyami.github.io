@@ -12,8 +12,9 @@ function setTheme(theme) {
     const style = document.documentElement.style;
 
     const defaults = {
-        "border-width": "1px",
-        "background-image": "url(/images/moriya_shrine.png)",
+        "bar-border-width": "1px",
+        "page-border-width": "2px",
+        "background-image": "url(/images/moriyashrine.png)",
         "opacity": "0.8",
 
         "link-color": "75, 229, 255",

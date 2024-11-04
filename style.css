@@ -43,7 +43,7 @@ code, pre, kbd, samp, tt {
     background-color: rgba(var(--top-bar-background-color), var(--opacity));
 
     border-bottom-style: dashed;
-    border-width: var(--border-width);
+    border-width: var(--bar-border-width);
 }
 
 .top-bar-logo {
@@ -82,7 +82,7 @@ code, pre, kbd, samp, tt {
 
     border-left-style: solid;
     border-right-style: solid;
-    border-width: 2px;
+    border-width: var(--page-border-width);
 
     background-color: rgba(var(--page-content-background-color), var(--opacity));
     color: rgb(var(--page-content-foreground-color));
@@ -131,5 +131,5 @@ code, pre, kbd, samp, tt {
     box-shadow: 0 50vh 0 50vh rgba(var(--bottom-bar-background-color), var(--opacity));
 
     border-top-style: dashed;
-    border-width: var(--border-width);
+    border-width: var(--bar-border-width);
 }
