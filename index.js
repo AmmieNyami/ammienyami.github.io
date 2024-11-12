@@ -31,6 +31,19 @@ function setTheme(theme) {
 
     const themes = {
         "dark": {},
+        "light": {
+            "link-color": "0, 0, 255",
+            "background-image": "url(/images/moriyashrine-winter.png)",
+
+            "top-bar-background-color": "255, 208, 237",
+            "top-bar-foreground-color": "51, 25, 43",
+
+            "bottom-bar-background-color": "255, 208, 237",
+            "bottom-bar-foreground-color": "51, 25, 43",
+
+            "page-content-background-color": "220, 177, 203",
+            "page-content-foreground-color": "51, 25, 43",
+        },
     };
 
     if (!(theme in themes))
