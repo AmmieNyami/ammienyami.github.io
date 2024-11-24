@@ -33,7 +33,6 @@ function setTheme(theme) {
         "dark": {},
         "light": {
             "link-color": "0, 0, 255",
-            "background-image": "url(/images/moriyashrine-winter.png)",
 
             "top-bar-background-color": "255, 208, 237",
             "top-bar-foreground-color": "51, 25, 43",
