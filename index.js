@@ -56,6 +56,26 @@ function setTheme(theme) {
     localStorage.setItem("lastTheme", theme);
 }
 
+function setupLinksForDOM(dom) {
+    const links = dom.querySelectorAll("a");
+    links.forEach((link) => {
+        link.addEventListener("click", (event) => {
+            const linkUrl = new URL(link.href);
+
+            // Check if it's a link to the current website
+            if (linkUrl.pathname === "/" && linkUrl.host === window.location.host) {
+                event.preventDefault();
+                const searchParamsString = linkUrl.searchParams.toString();
+                const updatedUrl = searchParamsString
+                      ? `/?${searchParamsString}`
+                      : "/";
+                window.history.pushState({}, "", updatedUrl);
+                handlePathUpdate();
+            }
+        });
+    });
+}
+
 function handlePathUpdate() {
     const query = new URLSearchParams(window.location.search);
     const page = decodeURIComponent(query.get("page") || encodeURIComponent(DEFAULT_PAGE));
@@ -99,30 +119,15 @@ function handlePathUpdate() {
                 cssElement.href = cssPath;
                 content.appendChild(cssElement);
             }
+
+            setupLinksForDOM(content);
         });
     });
 }
 
-function goToPage(page) {
-    if (page === "/" || page === "") {
-        window.history.pushState({}, "", "/");
-    } else {
-        window.history.pushState({}, "", `/?page=${encodeURIComponent(page)}`);
-    }
-    handlePathUpdate();
-}
-
-function goToPageRaw(page) {
-    if (page === "/" || page === "") {
-        window.history.pushState({}, "", "/");
-    } else {
-        window.history.pushState({}, "", `/?page=${encodeURIComponent(page)}&raw=true`);
-    }
-    handlePathUpdate();
-}
-
 (() => {
     setTheme(localStorage.getItem("lastTheme") || DEFAULT_THEME);
+    setupLinksForDOM(document);
     window.addEventListener("popstate", handlePathUpdate);
     handlePathUpdate();
 })();
