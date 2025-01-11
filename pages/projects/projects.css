@@ -24,6 +24,7 @@
     border-width: 3px;
 }
 
-.project a {
+.project a,
+.project a:visited {
     color: rgb(var(--page-content-foreground-color));
 }

@@ -24,6 +24,7 @@
     border-width: 3px;
 }
 
-.stuff a {
+.stuff a,
+.stuff a:visited {
     color: rgb(var(--page-content-foreground-color));
 }

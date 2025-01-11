@@ -14,34 +14,34 @@ function setTheme(theme) {
     const defaults = {
         "bar-border-width": "1px",
         "page-border-width": "2px",
-        "background-image": "url(/images/moriyashrine.png)",
-        "opacity": "0.8",
+        "background-image": "url(/images/cherryblossom.png)",
+        "opacity": "0.9",
 
-        "link-color": "75, 229, 255",
-
-        "top-bar-background-color": "51, 25, 43",
+        "top-bar-background-color": "44, 22, 64",
         "top-bar-foreground-color": "255, 208, 237",
 
-        "bottom-bar-background-color": "51, 25, 43",
+        "bottom-bar-background-color": "44, 22, 64",
         "bottom-bar-foreground-color": "255, 208, 237",
+        "bottom-bar-link-color": "75, 229, 255",
 
-        "page-content-background-color": "31, 15, 27",
+        "page-content-background-color": "23, 10, 51",
         "page-content-foreground-color": "255, 208, 237",
+        "page-content-link-color": "75, 229, 255",
     };
 
     const themes = {
         "dark": {},
         "light": {
-            "link-color": "0, 0, 255",
+            "top-bar-background-color": "104, 83, 175",
+            "top-bar-foreground-color": "255, 240, 249",
 
-            "top-bar-background-color": "255, 208, 237",
-            "top-bar-foreground-color": "51, 25, 43",
+            "bottom-bar-background-color": "104, 83, 175",
+            "bottom-bar-foreground-color": "255, 240, 249",
+            "bottom-bar-link-color": "215, 194, 255",
 
-            "bottom-bar-background-color": "255, 208, 237",
-            "bottom-bar-foreground-color": "51, 25, 43",
-
-            "page-content-background-color": "220, 177, 203",
+            "page-content-background-color": "255, 240, 249",
             "page-content-foreground-color": "51, 25, 43",
+            "page-content-link-color": "119, 90, 218",
         },
     };
 
