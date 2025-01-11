@@ -63,12 +63,11 @@ function setupLinksForDOM(dom) {
             const linkUrl = new URL(link.href);
 
             // Check if it's a link to the current website
-            if (linkUrl.pathname === "/" && linkUrl.host === window.location.host) {
+            if (linkUrl.host === window.location.host
+                && (linkUrl.pathname === "/" || linkUrl.pathname.startsWith("/!/")))
+            {
                 event.preventDefault();
-                const searchParamsString = linkUrl.searchParams.toString();
-                const updatedUrl = searchParamsString
-                      ? `/?${searchParamsString}`
-                      : "/";
+                const updatedUrl = linkUrl.pathname + linkUrl.search + linkUrl.hash;
                 window.history.pushState({}, "", updatedUrl);
                 handlePathUpdate();
             }
@@ -77,8 +76,10 @@ function setupLinksForDOM(dom) {
 }
 
 function handlePathUpdate() {
+    const page = window.location.pathname === "/"
+          ? DEFAULT_PAGE
+          : window.location.pathname.substring(2);
     const query = new URLSearchParams(window.location.search);
-    const page = decodeURIComponent(query.get("page") || encodeURIComponent(DEFAULT_PAGE));
     const raw = query.get("raw") === "true";
 
     const content = document.getElementById("page-content");
