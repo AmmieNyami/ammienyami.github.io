@@ -85,7 +85,7 @@ function handlePathUpdate() {
     content.innerHTML = "<h1>Loading...</h1>";
     fetch(page).then((response) => {
         if (response.status === 404) {
-            content.innerHTML = `<h1>${response.status} - ${response.statusText}</h1>`
+            content.innerHTML = `<h1>404 - File not found</h1><p>It seems like the page you're looking for doesn't exist.</p>`;
             return;
         }
 
