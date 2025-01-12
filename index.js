@@ -79,12 +79,16 @@ function handlePathUpdate() {
     const page = window.location.pathname === "/"
           ? DEFAULT_PAGE
           : window.location.pathname.substring(2);
-    const query = new URLSearchParams(window.location.search);
-    const raw = query.get("raw") === "true";
+    const raw = new URLSearchParams(window.location.search).get("raw") === "true";
 
     const content = document.getElementById("page-content");
     content.innerHTML = "<h1>Loading...</h1>";
     fetch(page).then((response) => {
+        if (response.status === 404) {
+            content.innerHTML = `<h1>${response.status} - ${response.statusText}</h1>`
+            return;
+        }
+
         response.text().then((htmlText) => {
             if (raw) {
                 content.innerHTML = `<pre style="white-space:pre-wrap;">${escapeHtml(htmlText)}</pre>`;
