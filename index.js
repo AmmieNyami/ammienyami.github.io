@@ -1,4 +1,4 @@
-const DEFAULT_THEME = "dark";
+const DEFAULT_THEME = "light";
 const DEFAULT_PAGE = "/pages/home.html";
 
 function escapeHtml(html){
