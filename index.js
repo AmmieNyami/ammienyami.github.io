@@ -30,7 +30,9 @@ function setTheme(theme) {
     };
 
     const themes = {
-        "dark": {},
+        "dark": {
+            "opacity": "0.96",
+        },
         "light": {
             "top-bar-background-color": "104, 83, 175",
             "top-bar-foreground-color": "255, 240, 249",
