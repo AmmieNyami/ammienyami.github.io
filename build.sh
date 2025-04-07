@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function pushd() {
     builtin pushd $1 2>&1 > /dev/null
