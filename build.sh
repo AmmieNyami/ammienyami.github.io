@@ -43,12 +43,12 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
 echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
 find -iname "*.html" | while read -r file; do
     echo "  <url>" >> sitemap.xml
-    printf "    <loc>https://hatsusixty.in/%s</loc>\n" "$(echo $file | sed -r 's|^./||g')" >> sitemap.xml
+    printf "    <loc>https://ammienyami.com/%s</loc>\n" "$(echo $file | sed -r 's|^./||g')" >> sitemap.xml
     echo "    <lastmod>$(git log -1 --format="%at" | xargs -I{} date -d @{} +%Y-%m-%d)</lastmod>" >> sitemap.xml
     echo "  </url>" >> sitemap.xml
 done
 echo "</urlset>" >> sitemap.xml
 
-echo 'Sitemap: https://hatsusixty.in/sitemap.xml' > robots.txt
+echo 'Sitemap: https://ammienyami.com/sitemap.xml' > robots.txt
 
 popd
