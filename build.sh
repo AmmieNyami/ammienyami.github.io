@@ -44,7 +44,7 @@ echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.x
 find -iname "*.html" | while read -r file; do
     echo "  <url>" >> sitemap.xml
     printf "    <loc>https://hatsusixty.in/%s</loc>\n" "$(echo $file | sed -r 's|^./||g')" >> sitemap.xml
-    echo "    <lastmod>$(date +%Y-%m-%d)</lastmod>" >> sitemap.xml
+    echo "    <lastmod>$(git log -1 --format="%at" | xargs -I{} date -d @{} +%Y-%m-%d)</lastmod>" >> sitemap.xml
     echo "  </url>" >> sitemap.xml
 done
 echo "</urlset>" >> sitemap.xml
