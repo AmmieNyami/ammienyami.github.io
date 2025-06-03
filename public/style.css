@@ -154,7 +154,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 
-  transition: all 0.2s;
+  transition: padding-left 0.2s;
 }
 
 .navigation-bar-links a::before {

@@ -1,0 +1,10 @@
+.persona {
+  float: right;
+  margin: 5px;
+  width: 200px;
+  max-width: 25%;
+}
+
+.persona img {
+  width: 100%;
+}
