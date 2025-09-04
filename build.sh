@@ -1,25 +1,25 @@
-#!/bin/bash
+#!/bin/sh
 
-function pushd() {
-    builtin pushd $1 2>&1 > /dev/null
-}
+set -e
 
-function popd() {
-    builtin popd $1 2>&1 > /dev/null
-}
-
-function templater() {
+templater() {
     echo "TEMPLATER: $1 -> $2"
     ./templater/templater $@
 }
 
-set -e
+###########################
+# === BUILD TEMPLATER === #
+###########################
 
 echo "Building templater..."
 
-pushd templater
+cd templater
 ./build.sh
-popd
+cd ..
+
+#########################
+# === BUILD WEBSITE === #
+#########################
 
 echo "Building website..."
 echo "(generated files will be at \`./public\`)"
@@ -27,7 +27,7 @@ echo "(generated files will be at \`./public\`)"
 mkdir -p public/pages
 find pages -type d -exec mkdir -p public/{} \;
 
-find pages -iregex '.*\.\(css\|js\)' | while read -r file; do
+find pages -iname '*.css' -o -iname '*.js' | while read -r file; do
     cp $file public/$file
 done
 
@@ -35,9 +35,13 @@ find . -not \( -path "./public" -prune \) -type f -iname "*.template.html" | whi
     templater $file public/${file/.template/}
 done
 
+#########################
+# === BUILD SITEMAP === #
+#########################
+
 echo "Building sitemap..."
 
-pushd public
+cd public
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
 echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
@@ -51,4 +55,4 @@ echo "</urlset>" >> sitemap.xml
 
 echo 'Sitemap: https://ammienyami.com/sitemap.xml' > robots.txt
 
-popd
+cd ..
