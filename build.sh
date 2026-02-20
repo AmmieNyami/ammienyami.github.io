@@ -16,7 +16,7 @@ templater() {
 echo "Building templater..."
 
 cd templater
-./build.sh
+bash ./build.sh
 cd ..
 
 #########################
